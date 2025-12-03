@@ -14,7 +14,9 @@ function Encabezado() {
                 <h2>Desarrollador Freelance | Profesor de Informática </h2>
                 <p>📍 Córdoba – Argentina 🇦🇷 |
                     📧 tomassilva2010@gmail.com |
-                    🔗 GitHub | LinkedIn</p>
+                    🔗 GitHub | <a href="https://www.linkedin.com/in/tomas-silva-59a2262b6" target="_blank"
+                                  rel="noopener noreferrer">LinkedIn</a>
+                </p>
 
                 <p className={"destacado"}>Experto en Java, JavaScript, ERP y soluciones web</p>
                 <div className="logos">
