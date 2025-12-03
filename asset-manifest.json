@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-web/static/css/main.99d718fa.css",
-    "main.js": "/cv-web/static/js/main.da0fc6ea.js",
+    "main.js": "/cv-web/static/js/main.ddc22034.js",
     "static/js/453.398feb0b.chunk.js": "/cv-web/static/js/453.398feb0b.chunk.js",
     "static/media/foto-portal1.png": "/cv-web/static/media/foto-portal1.c2993514252dd52e84cd.png",
     "static/media/erp-logo.png": "/cv-web/static/media/erp-logo.b4af575051310e6b8cf4.png",
@@ -10,11 +10,11 @@
     "static/media/java-logo-transparent.png": "/cv-web/static/media/java-logo-transparent.38c5683d323dfabaed32.png",
     "index.html": "/cv-web/index.html",
     "main.99d718fa.css.map": "/cv-web/static/css/main.99d718fa.css.map",
-    "main.da0fc6ea.js.map": "/cv-web/static/js/main.da0fc6ea.js.map",
+    "main.ddc22034.js.map": "/cv-web/static/js/main.ddc22034.js.map",
     "453.398feb0b.chunk.js.map": "/cv-web/static/js/453.398feb0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99d718fa.css",
-    "static/js/main.da0fc6ea.js"
+    "static/js/main.ddc22034.js"
   ]
 }
