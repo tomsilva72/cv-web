@@ -1,0 +1,51 @@
+.experience {
+    margin: 40px 0;
+}
+
+.timeline {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 30px;
+    border-left: 3px solid #007aff;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: #007aff;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #007aff;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.timeline-content h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #007aff;
+}
+
+.timeline-content h4 span {
+    color: #333;
+    font-weight: normal;
+}
+
+.period {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0 10px;
+}

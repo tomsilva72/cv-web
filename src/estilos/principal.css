@@ -1,0 +1,111 @@
+/* Tipografía y colores base */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Layout general */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4a90e2, #007aff);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Secciones */
+section {
+    margin: 40px 0;
+    padding: 10px;
+
+}
+
+section h3 {
+    border-bottom: 2px solid #007aff;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Skills en tarjetas */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.skill-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.skill-card:hover {
+    background: #007aff; /* Change to your desired hover color */
+    color: white; /* Optional: Change text color for better contrast */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+.destacado {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.encabezado {
+    display: flow;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Circular mask */
+    object-fit: contain; /* Ensure the image fits within the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better appearance */
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
